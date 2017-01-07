@@ -1,0 +1,134 @@
+@font-face {
+  font-family: 'BebasNeue';
+  src: url(../fonts/BebasNeueRegular.ttf); }
+
+@font-face {
+  font-family: 'Cambria';
+  src: url(../fonts/Cambria.ttf); }
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url(../fonts/HelveticaLTStd-Cond.otf); }
+
+@font-face {
+  font-family: 'PT_Sans';
+  src: url(../fonts/PT_Sans-Web-Regular.ttf); }
+
+header h1 {
+  font-family: 'BebasNeue'; }
+
+header p {
+  font-family: Arial; }
+
+.nav li {
+  padding-top: 25px;
+  font-family: 'Helvetica';
+  font-size: 15px; }
+
+.nav li:hover {
+  background-color: #d45e5e; }
+
+@media screen and (max-width: 992px) {
+  .menu {
+    border-top: 1px solid #d0d0d0; }
+    .menu .main-menu {
+      background-color: #FFF !important; }
+    .menu li {
+      padding-top: 0px;
+      float: left;
+      display: inline-block; } }
+
+.slogan h2 {
+  font-family: Arial;
+  font-size: 120px;
+  margin-bottom: -70px;
+  color: #dfdfdf; }
+
+.slogan p {
+  font-family: Cambria;
+  font-size: 20px;
+  font-style: italic; }
+
+.banner img {
+  vertical-align: middle; }
+
+.wrap-content {
+  padding: 0px 40px 0px 40px; }
+  .wrap-content .title {
+    font-family: Cambria;
+    font-style: italic; }
+  .wrap-content img {
+    width: 235px;
+    margin: 15px 0px 15px 0px; }
+
+@media screen and (max-width: 500px) {
+  .wrap-content {
+    padding: 0px !important; } }
+
+footer {
+  background-color: #d45e5e;
+  margin-top: 80px;
+  color: #ffffff;
+  font-family: PT_Sans;
+  padding-bottom: 10px; }
+
+.about .bio-img {
+  top: -50px;
+  position: absolute; }
+
+.about h2 {
+  font-style: italic;
+  font-size: 24px; }
+
+.about .bio-info {
+  padding-top: 20px;
+  font-size: 14px; }
+
+.about .info-link {
+  margin-top: 20px; }
+
+.about p {
+  margin-top: 10px; }
+
+@media screen and (max-width: 500px) and (min-width: 331px) {
+  .about h2 {
+    margin-top: 5px;
+    font-size: 17px; }
+  .about span {
+    font-size: 12px; } }
+
+@media screen and (max-width: 330px) {
+  .about h2 {
+    margin-top: 5px;
+    font-size: 10px; }
+  .about span {
+    font-size: 8px; }
+  .about .gps-img {
+    width: 10px; } }
+
+.skills {
+  margin-top: 30px; }
+  .skills h2 {
+    padding-bottom: 10px; }
+  .skills p {
+    font-size: 20px; }
+    .skills p img {
+      margin-left: 10px; }
+
+.skills-mobile {
+  border-top: 1px solid #dfdfdf;
+  background-color: #d45e5e;
+  color: #ffffff;
+  font-family: PT_Sans; }
+
+@media screen and (max-width: 300px) {
+  .skills img {
+    width: 180px; } }
+
+.copyright {
+  font-family: PT_Sans;
+  padding: 10px 0px 10px 0px;
+  background-color: #282828; }
+  .copyright span {
+    color: #888888;
+    float: right; }

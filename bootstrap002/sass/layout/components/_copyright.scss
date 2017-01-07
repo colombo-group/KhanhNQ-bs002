@@ -1,0 +1,10 @@
+@import 'assets/color';
+.copyright{
+	font-family: PT_Sans;
+	padding:10px 0px 10px 0px;
+	background-color: $copyright-color;
+	span{
+		color:#888888;
+		float:right;
+	}
+}

@@ -1,0 +1,53 @@
+@import 'assets/color';
+footer{
+	background-color: $primary-color;
+	margin-top:80px;
+	color:$bio-color;
+	font-family: PT_Sans;
+	padding-bottom: 10px;
+}
+.about{
+	.bio-img{
+		top:-50px;
+		position: absolute;
+	}
+	h2{
+		font-style: italic;
+		font-size: 24px;
+	}
+	.bio-info{
+		padding-top:20px;
+		font-size: 14px;
+	}
+	.info-link{
+		margin-top: 20px;
+	}
+	p{
+		margin-top: 10px;
+	}
+}
+@media screen and (max-width: 500px) and (min-width: 331px){
+	.about{
+		h2{
+			margin-top:5px;
+			font-size: 17px;
+		}
+		span{
+			font-size: 12px;
+		}
+	}
+}
+@media screen and (max-width: 330px){
+	.about{
+		h2{
+			margin-top:5px;
+			font-size: 10px;
+		}
+		span{
+			font-size: 8px;
+		}
+		.gps-img{
+			width:10px;
+		}
+	}
+}
